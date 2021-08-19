@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+
+.need__to__login {
+  background: rgb(0, 14, 93);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 14, 93, 1) 0%,
+    rgba(21, 64, 193, 1) 26%,
+    rgba(130, 175, 244, 1) 62%,
+    rgba(0, 28, 140, 1) 100%
+  );
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+#need_to_login {
+  font-family: "Zilla Slab", serif;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+}

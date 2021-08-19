@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#login-home-heading {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: white;
+}
+.btn-container {
+  margin-top: 50px;
+  display: block;
+}
+.background {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  opacity: 50%;
+  z-index: -1;
+  top: 0px;
+}
+.part__1 {
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 0px;
+}
+.part__2 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 100vh;
+  background: rgb(0, 14, 93);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 14, 93, 1) 0%,
+    rgba(21, 64, 193, 1) 26%,
+    rgba(130, 175, 244, 1) 62%,
+    rgba(0, 28, 140, 1) 100%
+  );
+  margin-top: 0px;
+}
+.app__home {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+#part2__heading {
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: white;
+  margin-top: 50px;
+}
+
+#developer-logo {
+  width: 230px;
+  height: 230px;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+@media (max-width: 619px) {
+  .btn-container{
+    display: block;
+  }
+}

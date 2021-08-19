@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Karantina:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.half-background {
+  position: absolute;
+  width: 100vw;
+  height: 370px;
+  opacity: 30%;
+}
+
+#admin-home-headings {
+  font-family: "Karantina", cursive;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+}
+.flex {
+  display: flex;
+}
+
+#doctor-manager {
+  background-color: rgb(165, 165, 0);
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: 40px;
+}
+
+#admin-logout-button {
+  display: block;
+  margin: auto;
+  background-color: crimson;
+  color: white;
+  font-family: "Open Sans";
+  width: 250px;
+  height: 40px;
+}
+
+#admin-settings {
+  display: block;
+  margin: auto;
+  font-family: "Open Sans";
+  color: white;
+  background-color: royalblue;
+  width: 250px;
+  height: 40px;
+}

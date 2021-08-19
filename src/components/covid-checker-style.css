@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
+
+.large-background {
+  height: 890vh;
+  image-rendering: pixelated;
+  width: 100%;
+  z-index: -1;
+  opacity: 50%;
+  position: absolute;
+  top: 50px;
+}
+#checker-heading {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 105, 146);
+}
+#checker-caption {
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(2, 0, 131);
+  font-family: "Montserrat", sans-serif;
+}
+.question {
+  text-align: center;
+  font-family: "Antonio", sans-serif;
+  color: rgb(105, 0, 0);
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+#quiz {
+  background: none;
+}
+
+.option {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: darkgray;
+  margin-bottom: 10px;
+}
+.question-cont {
+  display: block;
+  margin: auto;
+}
+.option__label {
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-family: "Noto Sans JP", sans-serif;
+  color: rgb(0, 23, 90);
+}
+
+#submit {
+  margin-top: 50px;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 40px;
+  transition-property: all;
+  transition-duration: 0.7s;
+  transition-delay: 0.2s;
+}
+
+#submit:hover {
+  width: 310px;
+}
+#submit:focus {
+  outline: none;
+}

@@ -1,0 +1,51 @@
+.doctorCreator {
+  position: absolute;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  right: 20px;
+  width: 300px;
+  height: 300px;
+  top: 90px;
+}
+.inputs {
+  width: 250px;
+}
+#types {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background-color: darkgray;
+  color: white;
+  font-family: monospace;
+}
+.type {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.typeCreator {
+  position: absolute;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  left: 20px;
+  width: 300px;
+  height: 220px;
+  top: 90px;
+  padding-top: 50px;
+  border-radius: 10px;
+  background-color: rgba(0, 200, 0, 0.2);
+}
+#create-type {
+  margin-top: 19px;
+}
+.doctors {
+  margin-bottom: 60px;
+}

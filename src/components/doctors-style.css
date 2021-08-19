@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap");
+
+#doctors-style {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "poppins", sans-serif;
+  cursor: default;
+  user-select: none;
+  color: white;
+}
+.doctors-slide {
+  width: 70%;
+  height: 400px;
+  background-color: #444444;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: -4px 7px 15px 8px rgba(255, 255, 255, 0.69);
+  -webkit-box-shadow: -4px 7px 15px 8px rgba(255, 255, 255, 0.69);
+  -moz-box-shadow: -4px 7px 15px 8px rgba(255, 255, 255, 0.69);
+}

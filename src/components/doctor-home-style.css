@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+
+#doctor-home-heading {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(59, 59, 59);
+}
+
+#logo {
+  width: 300px;
+  height: 300px;
+}
+.flex {
+  display: flex;
+}
+.buttons{
+       display: block;
+       margin: auto;
+}

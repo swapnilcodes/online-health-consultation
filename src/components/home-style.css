@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+
+#home-heading {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  margin-top: 35px;
+  margin-left: 60px;
+  cursor: default;
+  user-select: none;
+  color: white;
+}
+
+.home-icon {
+  position: absolute;
+  right: 136px;
+  top: 124px;
+  width: 250px;
+  height: 250px;
+}
+
+.subtitle {
+  text-align: left;
+  margin-left: 70px;
+  margin-top: 40px;
+  width: 500px;
+  cursor: default;
+  font-family: "Poppins", sans-serif;
+  user-select: none;
+  color: white;
+}
+
+.choose {
+  display: block;
+  background-color: black;
+  color: white;
+  width: 300px;
+  height: 40px;
+  margin-left: 86px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  margin-top: 60px;
+  font-family: "Poppins", serif;
+  text-decoration: none;
+  align-content: center;
+  transition-property: all;
+  transition-delay: 0.1s;
+  transition-duration: 0.6s;
+}
+.choose:hover {
+  box-shadow: 0 5px 15px rgba(38, 78, 255, 0.849);
+}
+
+footer {
+  background-image: linear-gradient(90deg, black, rgb(49, 49, 49));
+  margin-top: 170px;
+  height: 300px;
+}
+.flex {
+  display: flex;
+  margin-top: 30px;
+}
+#footer_title {
+  margin-top: 20px;
+  color: white;
+  margin-left: 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+#create-acc {
+  margin-top: 20px;
+  margin-left: 260px;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-image: linear-gradient(80deg, purple, rebeccapurple);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  transition-property: all;
+  transition-delay: 0.2s;
+  transition-duration: 0.6s;
+}
+#create-acc:hover {
+  box-shadow: 0 5px 15px rgba(38, 78, 255, 0.849);
+}
+
+.info {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-top: 30px;
+}
+
+#info1 {
+  margin-top: 90px;
+}
+
+
+
+@media (max-width: 950px) {
+  .home-icon {
+    position: static;
+    display: block;
+    margin: auto;
+  }
+  #home-heading {
+    text-align: center;
+  }
+  .subtitle {
+    text-align: center;
+    position: static;
+    display: block;
+    margin: auto;
+  }
+  .choose {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .subtitle {
+    height: auto;
+    width: 90%;
+  }
+}

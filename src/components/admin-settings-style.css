@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
+#admin__settings__heading {
+  font-family: "Raleway", sans-serif;
+  color: blue;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#view-doctors {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 40px;
+  background-color: rgba(0, 17, 255, 0.24);
+  margin-top: 90px;
+  margin-bottom: 10px;
+  color: crimson;
+}
+#view-users {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 40px;
+  background-color: rgba(0, 17, 255, 0.24);
+  margin-top: 90px;
+  margin-bottom: 10px;
+  color: crimson;
+}
+
+#change-password {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 40px;
+  background-color: rgba(0, 17, 255, 0.24);
+  margin-top: 90px;
+  margin-bottom: 10px;
+  color: crimson;
+}

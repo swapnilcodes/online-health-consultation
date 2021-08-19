@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@250&display=swap");
+#form {
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  background-color: white;
+  align-items: center;
+  border-radius: 10px;
+  padding-top: 80px;
+  box-shadow: -14px 7px 15px 8px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: -14px 7px 15px 8px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: -14px 7px 15px 8px rgba(0, 0, 0, 0.69);
+}
+
+.inputs {
+  display: block;
+  margin: auto;
+  width: 300px;
+  margin-top: 100px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#create {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  background-color: lightblue;
+  font-family: "Ubuntu", sans-serif;
+}
+img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: auto;
+}
+
+.login {
+  display: block;
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  transition-property: all;
+  transition-duration: 0.9s;
+  transition-delay: 0.2s;
+}
+.option:hover {
+  border: 1px inset grey;
+}
+
+#sub {
+  font-family: "poppins", sans-serif;
+  color: black;
+  text-align: center;
+  margin-top: 70px;
+}
